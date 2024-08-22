@@ -1,0 +1,46 @@
+{
+    "name": "everully/php-wildberries-sdk",
+    "description": "PHP Wildberries SDK",
+    "keywords" : ["php", "wildberries", "sdk", "api", "client"],
+    "homepage" : "https://github.com/everully/php-wildberries-sdk",
+    "license" : "MIT",
+    "autoload": {
+        "psr-4": {
+            "Everully\\PhpWildberriesSdk\\": "src/"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "Everully\\PhpWildberriesSdk\\Tests\\" : "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonov Anton",
+            "email": "everully@gmail.com",
+            "role" : "Developer"
+        }
+    ],
+    "require" : {
+        "php": "^8.2",
+        "saloonphp/saloon": "^3.0",
+        "nesbot/carbon": "^3.7"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34",
+        "laravel/pint": "^1.17",
+        "symfony/var-dumper": "^7.1"
+    },
+    "scripts" : {
+        "test" : "./vendor/bin/pest --no-coverage",
+        "test-coverage" : "vendor/bin/pest --coverage-html coverage",
+        "pint" : "/vendor/bin/pint"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability" : "dev",
+    "prefer-stable" : true
+}

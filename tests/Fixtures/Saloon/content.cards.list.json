@@ -1,0 +1,27 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Server": "nginx",
+        "Date": "Thu, 22 Aug 2024 11:08:57 GMT",
+        "Content-Type": "application\/json",
+        "Content-Length": "655",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Methods": "POST",
+        "X-S2s-Request-Id-Mirrored": "c33841489db5d0ce712f9354500938a1",
+        "X-S2s-Selector-Func-Route": "a",
+        "X-S2s-Response-By": "backend\/proxied",
+        "Access-Control-Allow-Headers": "Content-Type, Authorization",
+        "X-Ratelimit-Remaining": "0",
+        "X-S2s-Server": [
+            "s2sauth-content-sandbox",
+            "group-a.portal-el"
+        ],
+        "Access-Control-Allow-Origin": "*",
+        "X-Request-Id": "c33841489db5d0ce712f9354500938a1",
+        "Access-Control-Max-Age": "100",
+        "Status-NO-Id": "lsb-common-1p2a02-24-m.el.wb.ru",
+        "Strict-Transport-Security": "max-age=31536000; preload;",
+        "X-Content-Type-Options": "nosniff"
+    },
+    "data": "{\"cards\":[{\"nmID\":1928,\"imtID\":1926,\"subjectID\":105,\"subjectName\":\"\u041a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438\",\"vendorCode\":\"\u0410\u0440\u0442\u0438\u043a\u0443\u043b\u041f\u0440\u043e\u0434\u0430\u0432\u0446\u04303333111\",\"brand\":\"\u0411\u0440\u0435\u043d\u0434\",\"title\":\"\u041d\u0430\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u0435 \u0442\u043e\u0432\u0430\u0440\u0430\",\"description\":\"\u041e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u0442\u043e\u0432\u0430\u0440\u0430\",\"dimensions\":{\"length\":55,\"width\":40,\"height\":15},\"characteristics\":[{\"id\":12,\"name\":\"\u0420\u0438\u0441\u0443\u043d\u043e\u043a\",\"value\":[\"Turkish flag\"]},{\"id\":25471,\"name\":\"\u0412\u0435\u0441 (\u0433)\",\"value\":1200}],\"sizes\":[{\"chrtID\":1927,\"techSize\":\"S\",\"wbSize\":\"42\",\"skus\":[\"88005553669\"]}],\"createdAt\":\"2024-08-22T09:56:43.69Z\",\"updatedAt\":\"2024-08-22T09:56:43.69Z\"}],\"cursor\":{\"updatedAt\":\"2024-08-22T09:56:43Z\",\"nmID\":1928,\"total\":1}}"
+}
