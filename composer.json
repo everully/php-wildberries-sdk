@@ -34,7 +34,7 @@
     "scripts" : {
         "test" : "./vendor/bin/pest --no-coverage",
         "test-coverage" : "vendor/bin/pest --coverage-html coverage",
-        "pint" : "/vendor/bin/pint"
+        "pint" : "./vendor/bin/pint"
     },
     "config": {
         "allow-plugins": {
